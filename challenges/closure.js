@@ -30,7 +30,7 @@ function summation(num){
   }
 
   function add(){
-    numArray.reduce((total, arr) => {return total+=arr}, 0);
+    return numArray.reduce((total, arr) => {return total+=arr}, 0);
   }
 
   return (add());
