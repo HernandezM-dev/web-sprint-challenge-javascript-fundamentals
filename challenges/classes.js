@@ -32,13 +32,24 @@ class CubeMaker extends CuboidMaker{
     cubeVolume(){
         if(this.length === this.width && this.height){
             return Math.pow(this.length, 3);
-        }else
+        }else{
         return 'Not a perfect cube';
+        }
     }
     cubeSurfaceArea(){
         if(this.length === this.width && this.height){
             return 6*(Math.pow(this.length, 2));
-        }else
+        }else{
         return 'Not a perfect cube';
+        }
     }
 }
+
+const cube = new CubeMaker({
+    length: 5,
+    width: 5,
+    height: 5,
+  });
+
+console.log(cube.cubeVolume());
+console.log(cube.cubeSurfaceArea());
