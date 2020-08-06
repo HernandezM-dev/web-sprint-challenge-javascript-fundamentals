@@ -26,14 +26,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+    foreach loops through an array and returns what your desire return is
+    map loops through an array and returns an array
 2. Explain the difference between a callback and a higher order function.
-
+    Higher order is a function with a callback parameter
+    callback is a returned parameter
 3. What is closure?
-
+    The ability for a child function to access variables from a higher level scope even after the parent has been terminated
 4. Describe the four rules of the 'this' keyword.
-
+    window/gloabal binding: value of this will be window/console object
+    implicit binding: whenever a preceeding dot calls a function the object before the dot is "this"
+    new binding: whenever using a constructor function "this" refers to the instance of the object created by that constructor function
+    explicit binding: whenever call or apply methods are applied "this" is explicityly defined
 5. Why do we need super() in an extended class?
+    passes the attributes/attributes parameter to the parent class
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
